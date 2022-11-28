@@ -1,0 +1,598 @@
+:root{
+    --black-color:#000000;
+    --pink-color:#EA047E;
+    --light-blue:#00F5FF;
+    --yellow-blue:#FCE700;
+    --sky-blue:#9FC9F3;
+    --red-color:#E41749;
+    --light-color:#3A8891;
+    --blue-color:#0008C1;
+    --light-white:#F9F9F9;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    list-style:none;
+    text-decoration: none;
+    
+   
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+nav{
+    
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    padding:10px 50px;
+    margin:10px 0px; 
+    background-attachment: fixed;
+  
+    
+}
+ul li{
+    margin-right:50px;
+    text-align: center;
+    display: inline-block;
+    padding:5px 10px;
+}
+nav ul li a{
+    color:var(--black-color);
+    font-size:1em;
+    padding:10px 15px;
+    transition:all 0.5s ease;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: bolder;
+
+}
+
+.hover-line:hover{
+   margin-left:5px;
+    color:var(--pink-color);
+
+}
+.anchor4{
+    background-color:var(--pink-color);
+    color:white;
+}
+.anchor4:hover{
+    color:black;
+}
+
+h3{
+    font-size:50px;
+}
+h3::first-letter{
+    color:var(--pink-color);
+    font-size:70px;
+}
+
+nav{
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+.middle-container{
+    margin-left:140px;
+    display:grid;
+    grid-template-columns: minmax(600px,1fr) 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+.middle-container .text{
+    align-self:center ;
+    color:var(--pink-color);
+    font-size:2em;
+    
+}
+.course-btn{
+    margin-top:40px;
+    color:white;
+    background-color:var(--pink-color);
+    font-size:25px;
+    padding:15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.small{
+    margin-top:65px;
+    
+}
+.small-img{
+    border-radius:30%;
+    margin-left:-15px;
+    
+}
+.small-student-text{
+    font-size:20px;
+    color:var(--black-color);
+}
+.auto-type{
+    color:#000000;
+}
+.middle-container1{
+    text-align: center;
+    margin-top:100px;
+
+}
+.middle-container1 .why-develop{
+    font-size:20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.middle-container1 .heading-for-why-develop{
+    font-size:50px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.middle-container2{
+    margin: 100px 80px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:300px  300px;
+    gap:50px 200px;
+    column-gap: 40px;
+    row-gap: 100px;
+    padding:30px 10px;
+
+}
+.middle-container2 .hover-line{
+    transition:all 0.5s;
+}
+.middle-container2 .hover-line:hover{
+    transform:translateX(10px);
+    color:black;
+    cursor: pointer;
+}
+.middle-container2 img{
+    width:100px;
+    height:100px;
+    justify-self: center;
+}
+.middle-container2 div{
+    background-color: var(--light-white);
+    border-radius:20px;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    border-bottom:5px solid rgb(229, 160, 160);
+    padding-bottom: 30px;
+    
+}
+.middle-container2 .heading-cousre{
+    font-size:30px;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    
+}
+.middle-container2 .Web-development .Data-base .Placements{
+    padding: 30px 0px;
+}
+.middlecontainer-3{
+    background-color:azure;
+    padding-top:30px;
+}
+.recoginsed-company{
+    display:flex;
+    justify-content:space-around;
+    width:100vw;
+    
+
+}
+.recogined {
+    display:flex;
+    justify-content: center;
+    border-radius: 20px;
+    margin-bottom: 30px;;
+   
+}
+.recoginsed-company img{
+    width: 160px ;
+    border-radius: 20px;;
+    background-repeat:no-repeat ;
+    padding-top:20px;
+   
+}
+.menter-heading h2{
+    width:800px;
+    margin-top:50px;;
+    font-size: 40px;
+    position: relative;
+    left:100px;
+}
+.mentor-detailes{
+    margin: 30px 50px;
+    margin: 100px 80px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:300px  300px;
+    gap:50px 200px;
+    column-gap: 40px;
+    row-gap: 100px;
+    padding:30px 0px;
+}
+.mentor-detailes img{
+    width:100px;
+    height:100px;
+    justify-self: center;
+    object-fit: cover;
+    border-radius: 20px;;
+}
+.mentor-detailes div{
+        background-color: var(--light-white);
+        border-radius:20px;
+        display: grid;
+        align-content: center;
+        justify-content: center;
+       
+}
+.mentor-detailes .balaji-name{
+    font-size:25px;
+    font-weight: bolder;
+}
+.mentor-detailes .dsa-mentor{
+    font-size:15px;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    font-weight: bolder;
+    
+}
+.mentor-detailes .mentor-section-1{
+    border-bottom:5px solid rgb(229, 160, 160);
+    transition:all 0.5s ;
+}
+.mentor-detailes .mentor-section-1 .p-details{
+    text-indent: 50px;
+}
+.mentor-detailes .mentor-section-1:hover{
+    transform:translateX(10px);
+    cursor: pointer;
+}
+.coming-course-heading{
+    display: flex;
+    justify-content: center;
+    font-size:40px;
+}
+.upcomingcourse-heading{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:300px 50px;
+    gap:30px;
+    margin:100px 100px;
+   
+
+
+}
+.upcomingcourse-heading img{
+    width:300px;
+    height:200px;
+    border-radius: 20px;
+    display:grid;
+    justify-content: center;
+    align-content: center;
+}
+.upcomingcourse-heading p{
+    width:300px;
+    padding-top:20px
+    
+}
+.upcomingcourse-heading .cousres{
+    transition:all 0.5s ;
+}
+
+.upcomingcourse-heading .cousres:hover{
+    transform:translateX(5px);
+    cursor: pointer;
+    
+}
+.mentor-community{
+    margin:0px 100px;
+
+}
+.mentor-community h2{
+    font-size:40px;
+    margin-bottom: 10px;
+
+}
+.mentor-community p{
+    font-size: 20px;
+
+}
+.mentor-community img{
+   height:250px;
+   margin-top:50px ;
+    
+}
+.review-heading{
+    margin:80px 130px;
+    font-size:25px;
+
+}
+.comments-section{
+    margin: 150px 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: 200px 200px 200px; */
+    grid-template-rows: repeat(3,1fr);
+    column-gap:30px ;
+    row-gap: 60px;
+}
+
+.comments-section .person-rating{
+    display:flex;
+    padding-top:50px;
+
+}
+
+.comments-section .person-rating img{
+    width:40px;
+    border-radius:40%;;
+
+}
+
+.comments-section div{
+    background-color: aliceblue;
+    padding:20px;
+    border-radius:20px;
+    border-color: 2px solid black;
+}
+
+.comments-section .hh{
+    font-weight:bolder;
+    margin-top:8px;;
+}
+
+.comments-section .stars{
+    display:flex;
+    justify-self: flex-end;
+    align-self: flex-end;
+}
+
+footer{
+    margin-top:150px;
+    background-color: black;
+    /* width:100%; */
+    height:400px;
+}
+
+.btn{
+    font-size:20px;
+    background-color: var(--pink-color);
+    padding:10px 20px;
+    color:white;
+    border-radius: 20px;
+    position: relative;
+    left:50%;
+    margin-top:50px;
+    cursor: pointer;
+    border: none;;
+}
+
+.phone{
+    width:30px;
+    background-color: white;
+    border-radius: 30%;
+    padding:5px;
+    
+}
+
+.cell-back{
+    padding-left:5px;
+}
+footer{
+    color:white;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+    padding:100px;
+    
+}
+footer .logo-img img{
+    width:150px;
+    padding-bottom: 30px;
+}
+
+.footer .footer-2 {
+    color:var(--light-white);
+    display:flex;
+
+}
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-3 img{
+    width:40px;
+}
+.menu-footer{
+    font-size:40px;
+    padding-bottom:20px;
+    color:white;
+}
+.footer-2 .ff1{
+    padding:10px;
+}
+.ff{
+    padding-left:20px;
+    font-size:20px;
+    color:white;
+}
+
+footer .footer-menu{
+    color:white;
+    
+}
+.footer-bottom{
+    background-color:black;
+    color:white;
+    font-size:20px;
+    padding-bottom: 10px;
+}
+.emial{
+    margin-top:80px
+}
+.emial p{
+    font-size:30px;
+}
+.cont-num{
+    margin-top:20px;
+    font-size:20px;
+}
+
+@media screen and (max-width:600px){
+    nav{
+        padding-bottom:20px;
+    }
+    nav .develop-heading1{
+        font-size:25px;
+    }
+    nav .develop-heading1::first-letter{
+        font-size:40px;
+    }
+    nav .nav-menu-bar{
+        padding-left:100px;
+    }
+    nav ul li{
+        padding:10px;
+        
+    }
+    .anchor4{
+        font-size:15px;
+        padding:5px 10px;
+    }
+    .middle-container{
+        margin-left:50px; 
+    }
+
+    .middle-container .ping-img img{
+        width:350px;
+        padding-top: 100px;
+        padding-right: 200px;
+    }
+    .middle-container .text .content-learnwith {
+        font-size:30px;
+        margin-bottom:10px ;
+    }
+    .middle-container .text{
+        padding-right:100px;
+    }
+    .middle-container .small img{
+        width:30px;
+    }
+    .middle-container .text button{
+       font-size:15px;
+       margin:10px 5px;
+       padding:10px
+    }
+    .middle-container1{
+        margin-top:40px;
+
+    }
+    .middle-container1 .heading-for-why-develop{
+        font-size:2rem;
+        
+    }
+    .middle-container2{
+        margin:90px 20px;
+    }
+    .middle-container2 div{
+        font-size:10px;
+        display:flex;
+        flex-wrap:wrap;
+    }
+    .middle-container2 div .heading-cousre{
+        font-size:20px;
+    }
+    .middlecontainer-3 .recogined{
+        font-size:10px;
+    }
+    .recoginsed{
+        margin:30px 
+    }
+    .recoginsed-company div img{
+        width:80px;
+        border-radius: 20px;
+    }
+    .menter-heading{
+        display:flex;
+        margin-left:100px;
+        margin-left: 0px;
+    }
+
+    .menter-heading h2{
+        font-size:25px;
+        padding-right:100px;
+    }
+    .mentor-detailes{
+        margin:100px 30px
+    }
+    .mentor-detailes .mentor-section-1 img{
+        width:50px;
+        
+    } 
+    .mentor-detailes .mentor-section-1 .balaji-name{
+        font-size:20px;
+    }
+    .mentor-section-1 .p-details{
+        font-size:10px;
+    }
+    .mentor-detailes .mentor-section-1{
+        padding-bottom:25px
+        
+    }
+    .coming-course-heading{
+        font-size:30px;
+    }
+    .upcomingcourse-heading{
+        margin:40px 20px;
+    }
+    .upcomingcourse-heading div {
+        display:flex;
+        flex-wrap:wrap;
+
+    }
+    .upcomingcourse-heading div img{
+        height:150px;
+        margin-bottom:30px
+    }
+    .upcomingcourse-heading div h2{
+        font-size:15px
+    }
+    .upcomingcourse-heading div .text-data{
+        font-size:13px;
+    }
+    .mentor-community h2{
+        font-size:30px;
+    }
+    .mentor-community p{
+        font-size:15px;
+    }
+    .review-heading{
+        font-size:20px;
+ 
+    }
+    .comments-section{
+        margin:0px 10px;
+    }
+    .btn-1{ 
+       position:relative;
+       top:30px;
+       left:40px;
+    }
+    .footer-bootom{
+        background-color: black;;
+    }
+    .footer-1{
+        margin-right:50px;
+    }
+    .google img{
+        width:400px;
+        object-fit:contain;
+    }
+    .footer-3{
+        padding-left:50px;
+    }
+}
